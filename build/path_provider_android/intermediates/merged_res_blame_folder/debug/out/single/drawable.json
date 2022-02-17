@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ramazon/sample_app_getx/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/ramazon/.gradle/caches/transforms-2/files-2.1/6026df9510db401bde1768f72e68950c/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/ramazon/sample_app_getx/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/ramazon/.gradle/caches/transforms-2/files-2.1/6026df9510db401bde1768f72e68950c/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/ramazon/sample_app_getx/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/ramazon/.gradle/caches/transforms-2/files-2.1/6026df9510db401bde1768f72e68950c/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/ramazon/sample_app_getx/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/ramazon/.gradle/caches/transforms-2/files-2.1/6026df9510db401bde1768f72e68950c/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    }
+]

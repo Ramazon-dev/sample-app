@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uz.udevs.sample_app_getx"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:4:5-67
+14-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:5:5-76
+15-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:5:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:6:5-79
+16-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:7:5-76
+17-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:7:22-73
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-83
+18-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-80
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+19-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+20-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-66
+21-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-63
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+22-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+23    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+23-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+23-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+24
+25    <application
+25-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:9:5-36:19
+26        android:allowBackup="false"
+26-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:10:9-36
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/6026df9510db401bde1768f72e68950c/core-1.6.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:11:9-43
+30        android:label="sample_app_getx" >
+30-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:12:9-40
+31        <activity
+31-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:13:9-32:20
+32            android:name="uz.udevs.sample_app_getx.MainActivity"
+32-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:14:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:15:13-163
+34            android:exported="true"
+34-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:16:13-36
+35            android:hardwareAccelerated="true"
+35-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:17:13-47
+36            android:launchMode="singleTop"
+36-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:18:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:19:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:20:13-55
+39            <meta-data
+39-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:21:13-23:57
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:22:17-72
+41                android:resource="@style/NormalTheme" />
+41-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:23:17-54
+42            <meta-data
+42-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:24:13-26:66
+43                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+43-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:25:17-81
+44                android:resource="@drawable/launch_background" />
+44-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:26:17-63
+45
+46            <intent-filter>
+46-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:28:13-31:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:29:17-69
+47-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:29:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:30:17-77
+49-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:30:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <meta-data
+53-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:33:9-35:33
+54            android:name="flutterEmbedding"
+54-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:34:13-44
+55            android:value="2" />
+55-->/home/ramazon/sample_app_getx/android/app/src/main/AndroidManifest.xml:35:13-30
+56
+57        <provider
+57-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-21:20
+58            android:name="com.crazecoder.openfile.FileProvider"
+58-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-64
+59            android:authorities="uz.udevs.sample_app_getx.fileProvider.com.crazecoder.openfile"
+59-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-88
+60            android:exported="false"
+60-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+61            android:grantUriPermissions="true" >
+61-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-47
+62            <meta-data
+62-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:53
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-67
+64                android:resource="@xml/filepaths" />
+64-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-50
+65        </provider>
+66
+67        <receiver
+67-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:40
+68            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+68-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-97
+69            android:exported="false" />
+69-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+70        <receiver
+70-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-25:20
+71            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+71-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-101
+72            android:exported="false" >
+72-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+73            <intent-filter>
+73-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-24:29
+74                <action android:name="android.intent.action.BOOT_COMPLETED" />
+74-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-79
+74-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-76
+75                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+75-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-84
+75-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-81
+76                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+76-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+76-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-79
+77                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+77-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-82
+77-->[:flutter_local_notifications] /home/ramazon/sample_app_getx/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-79
+78            </intent-filter>
+79        </receiver>
+80
+81        <provider
+81-->[:share] /home/ramazon/sample_app_getx/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+82            android:name="io.flutter.plugins.share.ShareFileProvider"
+82-->[:share] /home/ramazon/sample_app_getx/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-70
+83            android:authorities="uz.udevs.sample_app_getx.flutter.share_provider"
+83-->[:share] /home/ramazon/sample_app_getx/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+84            android:exported="false"
+84-->[:share] /home/ramazon/sample_app_getx/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+85            android:grantUriPermissions="true" >
+85-->[:share] /home/ramazon/sample_app_getx/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+86            <meta-data
+86-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:53
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-67
+88                android:resource="@xml/flutter_share_file_paths" />
+88-->[:open_file] /home/ramazon/sample_app_getx/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-50
+89        </provider>
+90
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] /home/ramazon/.gradle/caches/transforms-2/files-2.1/9d5c36a4e6230461f8085df3c5748b23/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+92            android:name="androidx.window.extensions"
+92-->[androidx.window:window:1.0.0-beta04] /home/ramazon/.gradle/caches/transforms-2/files-2.1/9d5c36a4e6230461f8085df3c5748b23/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] /home/ramazon/.gradle/caches/transforms-2/files-2.1/9d5c36a4e6230461f8085df3c5748b23/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+94        <uses-library
+94-->[androidx.window:window:1.0.0-beta04] /home/ramazon/.gradle/caches/transforms-2/files-2.1/9d5c36a4e6230461f8085df3c5748b23/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+95            android:name="androidx.window.sidecar"
+95-->[androidx.window:window:1.0.0-beta04] /home/ramazon/.gradle/caches/transforms-2/files-2.1/9d5c36a4e6230461f8085df3c5748b23/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0-beta04] /home/ramazon/.gradle/caches/transforms-2/files-2.1/9d5c36a4e6230461f8085df3c5748b23/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+97
+98        <activity
+98-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+99            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+99-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+100            android:excludeFromRecents="true"
+100-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+103        <!--
+104            Service handling Google Sign-In user revocation. For apps that do not integrate with
+105            Google Sign-In, this service will never be started.
+106        -->
+107        <service
+107-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+108            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+108-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+109            android:exported="true"
+109-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+110            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+110-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+111            android:visibleToInstantApps="true" />
+111-->[com.google.android.gms:play-services-auth:19.2.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0a488da356d9ea38f986b5502f726b3c/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/c735fb62b406f65715ed9921c033678f/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/c735fb62b406f65715ed9921c033678f/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/c735fb62b406f65715ed9921c033678f/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/c735fb62b406f65715ed9921c033678f/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0e654b15c8368ec257d7923dc10af024/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0e654b15c8368ec257d7923dc10af024/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:17.5.0] /home/ramazon/.gradle/caches/transforms-2/files-2.1/0e654b15c8368ec257d7923dc10af024/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+121    </application>
+122
+123</manifest>
